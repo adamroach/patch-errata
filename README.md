@@ -60,3 +60,13 @@ escape-html`
 
 The output is placed in a subdirectory called `out` (which you must create if
 it does not exist) as `rfc<number>.html`.
+
+# Example Output
+
+The following documents have significant deployment and numerous errata
+associated with them, and demonstrate the output of the script. Note that
+the directory these files are in contains output for all RFCs that have
+associated errata.
+
+* [RFC 3261](https://adamroach.github.io/patched-rfcs/rfc/rfc3261.html) - Session Initiation Protocol (SIP)
+* [RFC 5246](https://adamroach.github.io/patched-rfcs/rfc/rfc5246.html) - Transport Layer Security (TLS) 1.2
