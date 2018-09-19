@@ -21,6 +21,10 @@ and known corner cases that need to be handled.
 * For the same reason, formatting of the "Notes" section of errata is
   occasionally haphazard. Again, working directly with the data in the form it
   exists in the errata database will eliminate this issue.
+* The script operates on HTML-escaped text. Where the `escape-html` npm module
+  and the RFC Editor's webpage have different notions about the necessity of
+  escaping certain characters, matches that should be possible are overlooked.
+  Operating directly on the database information should improve this situation.
 * Errata are applied at the first place in the document that matches the old
   text. In the rare cases that the old text appears in multiple sections, the
   erratum may be inserted at the wrong point. This can be fixed by isolating
