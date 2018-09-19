@@ -1,7 +1,7 @@
 # patch-errata
 Proof-of-concept for updating RFCs to contain errata
 
-# Disclaimer
+# Disclaimers
 This is a fairly simple script that I threw together pretty
 quickly, with two high-level goals:
 * Determining the feasibility of automatically inserting RFC Errata into the
