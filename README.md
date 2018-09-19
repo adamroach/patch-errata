@@ -30,6 +30,9 @@ and known corner cases that need to be handled.
 * Older documents are inconsistent about whether subsection headings and/or
   tables of contents are indented. This can confuse the section location
   logic.
+* Several errata (especially early ones) could be matched more effectively
+  by accounting for the use of `|` and `^` characters that some reporters
+  use to indicate specific lines and columns to be changed.
 * While it renders okay, the HTML file that is output is pretty horrific.
 
 # Prerequisites
