@@ -40,6 +40,9 @@ and known corner cases that need to be handled.
   [RFC 6016](https://adamroach.github.io/patched-rfcs/rfc/rfc6016.html))
 * Many errata contain smartquotes and other UTF-8 characters, which should
   be normalized to their ASCII equivalents before attempting to apply them.
+* When original text spans page boundaries but does not include the footer
+  and header text, it is not currently matched. This should be straightforward
+  to fix.
 * While it renders okay, the HTML file that is output is pretty horrific.
 * Characterset handling is incorrect.
 
