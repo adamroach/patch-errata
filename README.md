@@ -65,6 +65,13 @@ escape-html`
 The output is placed in a subdirectory called `out` (which you must create if
 it does not exist) as `rfc<number>.html`.
 
+# Preliminary Statistics
+
+The script first attempts to place the errata directly where the "text to replace" occurs. Over the entire corpus of RFCs with associated errata, it is able to do this 56% of the time. (Note that this number is significantly higher for more modern errata, which are given in a more rigorous "Old Text/New Text" format). The majority of the remaining errata (27% of all errata) are attached to the start of the corresponding section. Those stragglers that cannot be matched in either way (16%) are appended to the end of the document, and listed at the very top.
+
+![Inline: 56%, Section: 27%, Endnote: 16%](https://chart.googleapis.com/chart?chs=480x200&chd=t:56,27,16&cht=p3&chl=Inline|Section|Endnote&.png)
+
+
 # Example Output
 
 The following documents have significant deployment and numerous errata
@@ -74,3 +81,4 @@ associated errata.
 
 * [RFC 3261](https://adamroach.github.io/patched-rfcs/rfc/rfc3261.html) - Session Initiation Protocol (SIP)
 * [RFC 5246](https://adamroach.github.io/patched-rfcs/rfc/rfc5246.html) - Transport Layer Security (TLS) 1.2
+
