@@ -54,11 +54,8 @@ This script relies on the following node libraries, which are available via npm:
 * [node-html-parser](https://www.npmjs.com/package/node-html-parser) 
 * [escape-html](https://www.npmjs.com/package/escape-html)
 
-You can install them with: `npm install -g node-fetch node-html-parser
+You can install them with: `npm install node-fetch node-html-parser
 escape-html`
-
-(If you'd prefer to install the packages in this directory instead of
-globally, leave off the `-g` flag)
 
 # Use
 
