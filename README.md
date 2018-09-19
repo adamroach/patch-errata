@@ -45,8 +45,8 @@ and known corner cases that need to be handled.
 
 # Prerequisites
 This script is written in node, and requires relatively modern features.
-On OS X with Homebrew: `brew install node`
-On Debian-based Linux: `sudo apt-get install node`
+* On OS X with Homebrew: `brew install node`
+* On Debian-based Linux distributions (including Ubuntu): `sudo apt-get install node`
 
 This script relies on the following node libraries, which are available via npm:
 
