@@ -37,7 +37,7 @@ and known corner cases that need to be handled.
 * Several errata (especially early ones) could be matched more effectively
   by accounting for the use of `|` and `^` characters that some reporters
   use to indicate specific lines and columns to be changed (see, e.g.,
-  RFC 6016)
+  [RFC 6016](https://adamroach.github.io/patched-rfcs/rfc/rfc6016.html))
 * Many errata contain smartquotes and other UTF-8 characters, which should
   be normalized to their ASCII equivalents before attempting to apply them.
 * While it renders okay, the HTML file that is output is pretty horrific.
