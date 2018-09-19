@@ -32,8 +32,12 @@ and known corner cases that need to be handled.
   logic.
 * Several errata (especially early ones) could be matched more effectively
   by accounting for the use of `|` and `^` characters that some reporters
-  use to indicate specific lines and columns to be changed.
+  use to indicate specific lines and columns to be changed (see, e.g.,
+  RFC 6016)
+* Many errata contain smartquotes and other UTF-8 characters, which should
+  be normalized to their ASCII equivalents before attempting to apply them.
 * While it renders okay, the HTML file that is output is pretty horrific.
+* Characterset handling is incorrect.
 
 # Prerequisites
 This script relies on the following dependencies, which are available via npm:
