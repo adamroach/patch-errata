@@ -44,7 +44,11 @@ and known corner cases that need to be handled.
 * Characterset handling is incorrect.
 
 # Prerequisites
-This script relies on the following dependencies, which are available via npm:
+This script is written in node, and requires relatively modern features.
+On OS X with Homebrew: `brew install node`
+On Debian-based Linux: `sudo apt-get install node`
+
+This script relies on the following node libraries, which are available via npm:
 
 * [node-fetch](https://www.npmjs.com/package/node-fetch) 
 * [node-html-parser](https://www.npmjs.com/package/node-html-parser) 
